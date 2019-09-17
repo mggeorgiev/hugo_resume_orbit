@@ -4,7 +4,7 @@ baseurl = "https://martingeorgiev.com/"
 languageCode = "en-us"
 title = "martin Georgiev's  Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-110491290-1"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = false
@@ -31,7 +31,7 @@ disable404 = false
     # Profile section
     [params.profile]
         name = "Martin Georgiev"
-        tagline = "Full Stack Developer"
+        tagline = "Solution Architect"
         avatar = "profile.png"
 
     # Contact section
@@ -41,38 +41,38 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: mggeorgiev@gmail.com"
+        title = "mggeorgiev@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+359 89 84 666 89"
+        title = "+359 89 84 666 89"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//portfoliosite.com"
-        title = "portfoliosite.com"
+        url = "//martingeorgiev.com"
+        title = "martingeorgiev.com"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "//linkedin.com/in/mggeorgiev"
+        title = "linkedin.com/in/mggeorgiev"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
+        url = "//github.com/mggeorgiev"
+        title = "github.com/mggeorgiev"
 
         [[params.contact.list]]
         class = "twitter"
         icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "//twitter.com/mggeorgiev"
+        title = "@mggeorgiev"
 
     # Education section
     [params.education]
@@ -95,15 +95,15 @@ disable404 = false
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Bulgarian"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
+        language = "English"
         level = "Professional"
 
         [[params.language.list]]
-        language = "Russian"
+        language = "French"
         level = "Professional"
 
     # Interests section
