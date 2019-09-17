@@ -1,10 +1,10 @@
 # Page settings
 
-baseurl = "https://martingeorgiev.com/"
+baseurl = "https://martingeorgiev.com/ivayla/"
 languageCode = "en-us"
-title = "martin Georgiev's  Resume"
+title = "Ivayla Atanasova's  Resume"
 theme = "hugo-orbit-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-110491290-1"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = false
@@ -14,7 +14,7 @@ disable404 = false
 [params]
 
 # Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
+    description = "Ivayla Atanasova's profesional resume"
     author = "Martin Georgiev"
 
 # Theme styles
@@ -30,8 +30,8 @@ disable404 = false
 
     # Profile section
     [params.profile]
-        name = "Martin Georgiev"
-        tagline = "Full Stack Developer"
+        name = "Ivayla Atanasova"
+        tagline = "Segnior Service Deivery Manager"
         avatar = "profile.png"
 
     # Contact section
@@ -41,14 +41,14 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: ivayla.ivanova@gmail.com"
+        title = "ivayla.ivanova@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+359 885 307101"
+        title = "+359 885 307101"
 
         [[params.contact.list]]
         class = "website"
@@ -80,14 +80,14 @@ disable404 = false
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MSc in Management in Telecommunications"
+        college = "New Bulgarian University"
+        dates = "2010 - Present"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "BSc in Communication technique and technology"
+        college = "Technical University"
+        dates = "2005 - 2009"
 
     # Languages section
     [params.language]
@@ -95,15 +95,11 @@ disable404 = false
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
+        language = "Bulgarian"
         level = "Native"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
-
-        [[params.language.list]]
-        language = "Russian"
+        language = "English"
         level = "Professional"
 
     # Interests section
@@ -129,7 +125,7 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Dynamic and motivated professional with a proven record of building relationships, operating in high value projects. Experience of 10+ years into IT and telecommunication business environment. Passionate about process excellence, service integration and transformations and customers’ satisfaction."
 
     # Experiences section
     [params.experiences]
@@ -138,26 +134,26 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Manager Enterprise Service Delivery"
+        dates = "2013 – 2019"
+        company = "GTT Communications, Inc. (Formerly Interoute Ltd)"
+        details = "Acting as Senior Service Delivery Manager for the enterprise teams (20-30 people) operating on the UK market. I was providing leadership and taking responsibility for teams performances and development in dynamic and fast- paced environments. I was senior point of escalations for customers, as well as for third party companies/ vendors. Being on this position I was responsible for the end to end service delivery processes from quoting stage to final turn up of the services. Follow the acquisition I was deeply involved and strongly contributed to the integration and post- integration phase as: mapping existing delivery processes; driving process excellence in front of the customer and to the organization; Conduct post-implementation reviews to evaluate benefits accrued from new processes and system, as well as identifying the potential risks."
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Account Process Manager"
+        dates = "2009 - 2013"
+        company = "Hewlett-Packard Global Delivery Bulgaria Center EOOD"
+        details = "As account process manager for change management process I had to ensure that projects/change initiatives meet objectives on time and on budget.  I’ve worked into cross- functional teams’ environment, where I did apply a structured methodology and lead change management activities. I was acting as a coach for senior tower leaders and executives in helping them fulfill the role of change sponsor. Another important focus and responsibility, which I had was to provide input, document requirements and support the design and delivery of training programs."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Application administrator/ Trainee"
+        dates = "2008 - 2009"
+        company = "Mobiltel EAD"
+        details = "Starting as a trainee in the Enterprise Operations Division. Then acting as application admin supporting the company`s CRM system based on ITIL fundamentals. Participating in the implementation of different ITIL modules: change, incident, problem management."
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -194,27 +190,59 @@ disable404 = false
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
+        skill = "Project management"
         level = "98%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "Customers communication"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
+        skill = "Process Excellence"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Integrations"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "Transitions"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Agile"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "ITIL"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "SLA"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "KPI"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Service Delivery"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Telecommunication services and products"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Diversity- ability to understand and integrate diverse opinions"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Diplomacy"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "Basic Network knowledge"
         level = "60%"
 
     # Footer section

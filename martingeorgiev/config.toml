@@ -24,7 +24,7 @@ disable404 = false
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-5.css"
+    styles = "styles-6.css"
 
 # Sidebar sections
 
@@ -112,10 +112,10 @@ disable404 = false
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Photography"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Motorsport"
 
         [[params.interests.list]]
         interest = "Cooking"
@@ -129,7 +129,7 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "I am experienced in the translation of business requirements into End-to-End IT solutions, in line with the technical architecture. Accountable for the solution in operation, responsible for the solution descriptions, service, and user experience design."
 
     # Experiences section
     [params.experiences]
@@ -138,10 +138,10 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
+        position = "Solution leader"
         dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        company = "DXC TECHNOLOGY"
+        details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. Transferred to DXC technology during the merger of HPE ES with CSC. On top of the previous responsibilities, my tasks include:"
 
         [[params.jobs.list]]
         position = "Senior Software Engineer"
