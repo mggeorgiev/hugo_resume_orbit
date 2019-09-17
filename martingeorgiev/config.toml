@@ -85,9 +85,9 @@ disable404 = false
         dates = "2006 - 2010"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
+        degree = "BSc in Information technologies"
         college = "Bristol University"
-        dates = "2007 - 2011"
+        dates = "2015 - 2019"
 
     # Languages section
     [params.language]
