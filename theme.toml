@@ -13,6 +13,12 @@ min_version = 0.16
 
 # If porting an existing theme
 [original]
+  name = "Pavel Kanyshev"
+  homepage = "//github.com/xriley"
+  repo = "//github.com/aerohub/hugo-orbit-theme"
+
+# If porting an existing theme
+[original]
   name = "Xiaoying Riley"
   homepage = "//github.com/xriley"
   repo = "//github.com/xriley/Orbit-Theme"
