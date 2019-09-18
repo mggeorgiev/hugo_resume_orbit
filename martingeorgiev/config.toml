@@ -110,7 +110,13 @@ disable404 = false
     [params.qrcode]
         enable = true
         title = "QR Code"
-        name = "Martin Georgiev"
+        lastName = "Georgiev"
+        firstName = "Martin"
+        address = "Sofia, Bulgaria"
+        phone = "+359898466689"
+        email = "mggeorgiev@gmail.com"
+        url = "martingeorgiev.com"
+        note = "Information Broker"
 
     
         # Interests section
