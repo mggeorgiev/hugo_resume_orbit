@@ -80,13 +80,13 @@ disable404 = false
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "MSc in Data Science"
+        college = "UNIBIT"
+        dates = "2019 - 2020"
 
         [[params.education.list]]
         degree = "BSc in Information technologies"
-        college = "Bristol University"
+        college = "UNIBIT"
         dates = "2015 - 2019"
 
     # Languages section
@@ -104,7 +104,7 @@ disable404 = false
 
         [[params.language.list]]
         language = "French"
-        level = "Professional"
+        level = "Basic"
 
     # Interests section
     [params.interests]
@@ -194,27 +194,35 @@ disable404 = false
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
+        skill = "SQL"
         level = "98%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "Power Querry"
+        level = "85%"
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
+        skill = "HUGO"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "ASP.NET"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "Emtity Framework"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Blazor"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "GIMP & Photoshop"
         level = "60%"
 
     # Footer section
