@@ -116,6 +116,18 @@ disable404 = false
         [[params.interests.list]]
         interest = "Cooking"
 
+        # QR section
+    [params.qrcode]
+        enable = true
+        title = "QR Code"
+        lastName = "Atanasova"
+        firstName = "Ivayla"
+        address = "Sofia, Bulgaria"
+        phone = "+359885307101"
+        email = "ivayla.ivanova@gmail.com"
+        url = "martingeorgiev.com/ivayla/"
+        note = "Service Delivery Manager"
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
