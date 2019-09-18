@@ -1,0 +1,14 @@
+- id: education
+  translation: Образование
+- id: experiences
+  translation: Опит
+- id: interests
+  translation: Интереси
+- id: language
+  translation: Езици
+- id: projects
+  translation: Проекти
+- id: skills
+  translation: Skills & Proficiency
+- id: summary
+  translation: Career Profile
