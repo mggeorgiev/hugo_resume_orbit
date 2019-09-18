@@ -3,7 +3,7 @@
 baseurl = "https://martingeorgiev.com/ivayla/"
 languageCode = "en-us"
 title = "Ivayla Atanasova's  Resume"
-theme = "hugo-orbit-theme"
+theme = "hugo_resume_orbit"
 googleAnalytics = "UA-110491290-1"
 
 # Do not build files for websites. Need them? Set to false
