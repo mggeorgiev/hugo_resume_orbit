@@ -13,6 +13,15 @@
                     <div class="details">
                         <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
                     </div><!--//details-->
+                    {{ range .Site.Params.position.list }}
+                    <div class="item">
+                        <h3 class="level-title">{{ .skill }}</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="{{ .level }}">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+                    {{ end }}
                 </div><!--//item-->
 				{{ end }}
 
