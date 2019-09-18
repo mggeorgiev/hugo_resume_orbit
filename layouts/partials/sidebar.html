@@ -3,23 +3,30 @@
 		{{ partial "profile.html" . }}
 
 		{{ if .IsTranslated }}
-		{{ partial "translate.html" . }}
+			{{ partial "translate.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.contact.enable }}
-		{{ partial "contact.html" . }}
+			{{ partial "contact.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.education.enable }}
-		{{ partial "education.html" . }}
+			{{ partial "education.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.language.enable }}
-		{{ partial "language.html" . }}
+			{{ partial "language.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.interests.enable }}
-		{{ partial "interests.html" . }}
+			{{ partial "interests.html" . }}
 		{{ end }}
+
+		{{ partial "qr-code.html" . }}
+		<!--
+		{{ if .Site.Params.qrcode.enable }}
+			{{ partial "qr-code.html" . }}
+		{{ end }}
+		-->
 
         </div><!--//sidebar-wrapper-->

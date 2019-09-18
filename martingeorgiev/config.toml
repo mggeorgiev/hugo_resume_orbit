@@ -106,7 +106,14 @@ disable404 = false
         language = "French"
         level = "Basic"
 
-    # Interests section
+    # QR section
+    [params.qrcode]
+        enable = true
+        title = "QR Code"
+        name = "Martin Georgiev"
+
+    
+        # Interests section
     [params.interests]
         enable = true
         title = "Interests"
