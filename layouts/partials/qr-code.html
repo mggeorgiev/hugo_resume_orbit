@@ -1,14 +1,11 @@
-<div class="qr-container container-block">
-<div class="p0 m0 text-center" >
-    <p class="card-text">Scan contact card</p>
-    <img id="qr-code" class="card-img-top" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:{{ .Param.lastName  }},{{ .Param.firstName }};{{ .Param.address }};TEL:{{ .Param.phone }};EMAIL:{{ .Param.email }};URL:{{ .Site.BaseURL }};NOTE:{{ .Param.contactNote }};;"/>
-  </div>
-</div>
+
 
 <div class="qr2-container container-block">
     <h2 class="container-block-title">{{ i18n "qr-code" }}</h2>
     <ul class="list-unstyled interests-list">
       <p class="card-text">Scan contact card</p>
-      <img id="qr-code" class="card-img-top" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:{{ .Param "lastName" }},{{ .Param "firstName" }};{{ .Param "address" }};TEL:{{ .Param "phone" }};EMAIL:{{ .Param "email" }};URL:{{ .Site.BaseURL }};NOTE:{{ .Param "contactNote" }};;"/>
+      <!--<img id="qr-code" class="card-img-top" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:Georgiev,Martin;adress;TEL:+359898466689;EMAIL:mggeorgiev@gmail.com;URL:martingeorgiev.com;NOTE:note;;"/>-->
+      <img id="qr-code" class="card-img-top" alt="Scannable QR code with contact info" src="https://chart.googleapis.com/chart?cht=qr&chs=150x150&chl=MECARD:N:{{ .Site.Params.qrcode.lastName }},{{ .Site.Params.qrcode.firstName }};{{ .Site.Params.qrcode.adress }};TEL:{{ .Site.Params.qrcode.phone }};EMAIL:{{ .Site.Params.qrcode.email }};URL:{{ .Site.Params.qrcode.url }};NOTE:{{ .Site.Params.qrcode.note }};;"/>
     </ul>
-</div><!--//qr-code-->
+</div>
+<!--//qr-code-->
