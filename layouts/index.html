@@ -27,6 +27,10 @@
             {{ partial "skills.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.certificates.enable }}
+            {{ partial "certificates.html" . }}
+        {{ end }}
+
         </div><!--//main-body-->
     </div>
 
