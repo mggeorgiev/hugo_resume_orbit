@@ -150,6 +150,14 @@ disable404 = false
         dates = "2013 – 2019"
         company = "GTT Communications, Inc. (Formerly Interoute Ltd)"
         details = "Acting as Senior Service Delivery Manager for the enterprise teams (20-30 people) operating on the UK market. I was providing leadership and taking responsibility for teams performances and development in dynamic and fast- paced environments. I was senior point of escalations for customers, as well as for third party companies/ vendors. Being on this position I was responsible for the end to end service delivery processes from quoting stage to final turn up of the services. Follow the acquisition I was deeply involved and strongly contributed to the integration and post- integration phase as: mapping existing delivery processes; driving process excellence in front of the customer and to the organization; Conduct post-implementation reviews to evaluate benefits accrued from new processes and system, as well as identifying the potential risks."
+        tasks = [
+            "Managed and maintained relationships with the customers via clear communication process;",
+            "Managed and maintained relationships with the external vendors and partners;",
+            "Worked with senior engineering management and project director to ensure process is followed and negotiating any areas, where improvement is needed;",
+            "Responsible for all types of Documentations: Processes; Vendors; Roles and responsibilities;"
+            ]
+        more = "As an MSI change manager I had to execute the above responsibilities on behalf of the customer in his multi-supplier environment and make sure that the suppliers adhere to the agreed process. On top of the regular Change Advisory Boards (CAB) I also chaired operational review meetings." 
+
 
         [[params.jobs.list]]
         position = "Account Process Manager"
