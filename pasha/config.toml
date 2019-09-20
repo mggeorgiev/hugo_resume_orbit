@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "https://martingeorgiev.com/pasha/"
+baseurl = "https://martingeorgiev.com/"
 languageCode = "en-us"
-title = "Spaska Georgieva's  Resume"
+title = "Spaska Georgieva's Resume"
 theme = "hugo_resume_orbit"
 googleAnalytics = "UA-110491290-1"
 
@@ -24,7 +24,7 @@ disable404 = false
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles-2.css"
 
 # Sidebar sections
 
@@ -36,7 +36,7 @@ disable404 = false
 
     # Contact section
     [params.contact]
-        enable = true
+        enable = false
 
         [[params.contact.list]]
         class = "email"
@@ -47,20 +47,20 @@ disable404 = false
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+359 89 84 666 89"
-        title = "+359 89 84 666 89"
+        url = "tel:+359 89 749 1263"
+        title = "+359 89 749 1263"
 
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
-        title = "https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
+        url = "//https://www.martingeorgiev.com/pasha/"
+        title = "https://www.martingeorgiev.com/pasha/"
 
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/mggeorgiev"
-        title = "linkedin.com/in/mggeorgiev"
+        url = "//https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
+        title = "linkedin.com/in/"
 
         [[params.contact.list]]
         class = "github"
@@ -80,12 +80,12 @@ disable404 = false
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Data Science"
+        degree = "MSc in Digital Marketing"
         college = "UNIBIT"
         dates = "2019 - 2020"
 
         [[params.education.list]]
-        degree = "BSc in Information technologies"
+        degree = "BSc in Public Policies and Practicies"
         college = "UNIBIT"
         dates = "2015 - 2019"
 
@@ -104,19 +104,19 @@ disable404 = false
 
         [[params.language.list]]
         language = "French"
-        level = "Basic"
+        level = "Professional"
 
     # QR section
     [params.qrcode]
         enable = true
         title = "QR Code"
-        lastName = "Georgiev"
-        firstName = "Martin"
+        lastName = "Georgieva"
+        firstName = "Spaska"
         address = "Sofia, Bulgaria"
-        phone = "+359898466689"
-        email = "mggeorgiev@gmail.com"
-        url = "martingeorgiev.com"
-        note = "Information Broker"
+        phone = "+359897491263"
+        email = "dimovaspaska@gmail.com"
+        url = "martingeorgiev.com/pasha"
+        note = "Account manager"
 
     
         # Interests section
@@ -142,7 +142,7 @@ disable404 = false
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "I am experienced in the translation of business requirements into End-to-End IT solutions, in line with the technical architecture. Accountable for the solution in operation, responsible for the solution descriptions, service, and user experience design."
+        summary = "Senior focal point for client sales and customer satisfaction."
 
     # Experiences section
     [params.experiences]
@@ -151,63 +151,46 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Solution leader"
-        dates = "2015 - Present"
-        company = "DXC TECHNOLOGY"
-        details = "Transferred to DXC technology during the merger of HPE ES with CSC. My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        position = "Account manager"
+        dates = "2019"
+        company = "Pulsio Print"
+        details = "Builds business relationships with clients to facilitate the sale of hardware, software, telecommunications or ICT services. Identifies opportunities and manages sourcing and delivery of products to customers. Has responsibility for achieving sales targets and maintaining profitability."
         tasks = [
-            "Examination and interpretation of business requirements",
-            "Establishing solution intent",
-            "Aligning the solution with the technical architecture",
-            "Identification of potential technical design risks",
-            "Supervision of the built-in quality",
-            "Operation within the budgetary framework to validate the financial impact of design decisions",
-            "Identification of innovation opportunities",
-            "Planning technology roadmaps",
-            "Areas of expertise include Public and Private cloud."
+                "Maintain overall customer satisfaction with products and/or services"
+                , "Identify opportunities to propose new products or services"
+                , "Provide the primary contact point for client executive management"
+                , "Deliver value added presentations related to products and services to customer executive management"
+                , "Lead negotiations to establish profitable contracts with client(s)"
+                , "Maintain and enhance business relationships"
         ]        
 
         [[params.jobs.list]]
-        position = "SALES SUPPORT SPECIALIST/DEAL DELIVERY ASSURANCE"
-        dates = "July 2011 - May 2015"
-        company = "HEWLETT-PACKARD"
-        details = """Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is **fit for purpose** and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal.
-                    \rI applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation, multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.
+        position = "Product manager"
+        dates = "October 2006 - July 2019"
+        company = "Texar Bulgaria - Dimatex"
+        details = """Represented the needs of the stakeholder community, expressed the voice of the customer, to the proction team. 
+                    \rUnderstood customer requirements and validated that the developed product meets them. Linked business and production teams. 
                     \rMain tasks:"""
         tasks = [
-            "Verify Service requirements",
-            "Negotiate SLA / OLA",
+            "Build, edit, and maintain the product backlog",
+            "Define, prioritise and validate product requirements",
             "Maintain and contribute to the creation of the service budget",
-            "Obtain stakeholders approval"
+            "Obtain stakeholders approval",
+            "Relationship Management",
+            "Product planning"
+            , "Establish product acceptance criteria"
+            ,"Work across teams to define and implement improvement, and to enhance quality"
             ]  
 
         [[params.jobs.list]]
-        position = "CHANGE MANAGER"
-        dates = "July 2010 - December 2011"
-        company = "HEWLETT-PACKARD"
-        details = "As a Change Manager I had to ensure that projects/change initiatives meet objectives on time and on budget. My focus was on the people side of change – including changes to business processes, systems and technology, job roles and organization structures. The primary responsibility was to create and implement change management strategies and plans that maximized success rate and minimized risk of service disruption. The main goals were:"
-        tasks = [
-            "to drive faster change adoption",
-            "to drive higher ultimate utilization and greater proficiency of the changes that impact employees",
-            "to increase benefit realization, value creation, ROI and the achievement of results and outcomes"
-            ]
-        more = "As an MSI change manager I had to execute the above responsibilities on behalf of the customer in his multi-supplier environment and make sure that the suppliers adhere to the agreed process. On top of the regular Change Advisory Boards (CAB) I also chaired operational review meetings." 
-
-        [[params.jobs.list]]
-        position = "REPORTING SPECIALIST"
-        dates = "July 2005 - May 2007"
-        company = "SOFICA GROUP LTD"
-        details = "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices."
-
-        [[params.jobs.list]]
-        position = "SUPERVISOR"
-        dates = "May 2007 - November 2007"
-        company = "SOFICA GROUP LTD"
-        details = "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle."
+        position = "Schedule manager"
+        dates = "April 2003 - September 2006"
+        company = "IMRO Ltd"
+                details = "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle."
 
     # Projects section
     [params.projects]
-        enable = true
+        enable = false
         icon = "fa-archive"
         title = "Projects"
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
@@ -244,35 +227,35 @@ disable404 = false
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "SQL"
-        level = "98%"
+        skill = "Product planning"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "Power Querry"
-        level = "85%"
+        skill = "Innovation"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "HTML5 & CSS"
+        skill = "Needs Identification"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Relationship Management"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "HUGO"
-        level = "95%"
+        skill = "Sales Proposal Development"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "ASP.NET"
+        skill = "Channel Managemen"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Emtity Framework"
-        level = "75%"
-
-        [[params.skills.list]]
-        skill = "Blazor"
+        skill = "Sales Management"
         level = "55%"
 
         [[params.skills.list]]
-        skill = "GIMP & Photoshop"
+        skill = "Forecast Developmen"
         level = "60%"
 
     # Footer section
