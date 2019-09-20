@@ -31,7 +31,7 @@ disable404 = false
     # Profile section
     [params.profile]
         name = "Spaska Georgieva"
-        tagline = "Account manager"
+        tagline = "Account Manager"
         avatar = "profile.jpg"
 
     # Contact section
@@ -41,8 +41,8 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: mggeorgiev@gmail.com"
-        title = "mggeorgiev@gmail.com"
+        url = "mailto: dimovaspaska@gmail.com"
+        title = "dimovaspaska@gmail.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -53,8 +53,8 @@ disable404 = false
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//martingeorgiev.com"
-        title = "martingeorgiev.com"
+        url = "//https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
+        title = "https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
 
         [[params.contact.list]]
         class = "linkedin"
