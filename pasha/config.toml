@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "https://martingeorgiev.com/"
+baseurl = "https://martingeorgiev.com/pasha/"
 languageCode = "en-us"
-title = "martin Georgiev's  Resume"
+title = "Spaska Georgieva's  Resume"
 theme = "hugo_resume_orbit"
 googleAnalytics = "UA-110491290-1"
 
@@ -30,8 +30,8 @@ disable404 = false
 
     # Profile section
     [params.profile]
-        name = "Martin Georgiev"
-        tagline = "Solution Architect"
+        name = "Spaska Georgieva"
+        tagline = "Account manager"
         avatar = "profile.png"
 
     # Contact section
