@@ -264,7 +264,7 @@ disable404 = false
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Emtity Framework"
+        skill = "Entity Framework"
         level = "75%"
 
         [[params.skills.list]]
@@ -275,6 +275,57 @@ disable404 = false
         skill = "GIMP & Photoshop"
         level = "60%"
 
+    # Experiences section
+    [params.competence]
+        enable = true
+        icon = "fa-cogs"
+
+        [[params.competence.list]]
+        competence = "Architecture Design"
+        level = "60%"
+        phase = "Plan"
+
+        [[params.competence.list]]
+        competence = "Innovating"
+        level = "80%"
+        phase = "Plan"
+
+        [[params.competence.list]]
+        competence = "Documentation Production"
+        level = "60%"
+        phase = "Build"
+
+        [[params.competence.list]]
+        competence = "Systems Engineering"
+        level = "60%"
+        phase = "Build"
+
+        [[params.competence.list]]
+        competence = "Information and Knowledge Managementt"
+        level = "97%"
+        phase = "Enable"
+        [[params.competence.list]]
+        competence = "Forecast Development"
+        level = "80%"
+        phase = "Enable"
+        
+        [[params.competence.list]]
+        competence = "Needs Identification"
+        level = "60%"
+        phase = "Enable"
+
+        [[params.competence.list]]
+        competence = "Process Improvement"
+        level = "60%"
+        phase = "Manage"
+
+        [[params.competence.levels]]
+        level4 = "exercise self-management within the guidelines of work or study contexts that are usually predictable, but are subject to change; supervise the routine work of others, taking some responsibility for the evaluation and improvement of work or study activities"
+        level5 = "exercise management and supervision in contexts of work or study activities where there is unpredictable change; review and develop performance of self and others"
+        level6 = "manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts; take responsibility for managing professional development of individuals and groups"
+        level7 = "manage and transform work or study contexts that are complex, unpredictable and require new strategic approaches; take responsibility for contributing to professional knowledge and practice and/or for reviewing the strategic performance of teams"
+        level8 = "demonstrate substantial authority, innovation, autonomy, scholarly and professional integrity and sustained commitment to the development of new ideas or processes at the forefront of work or study contexts including research"
+        
     # Footer section
 
     # The original template is released under the Creative Commons Attribution 3.0 License.
