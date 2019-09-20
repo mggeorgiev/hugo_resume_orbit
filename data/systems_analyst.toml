@@ -29,23 +29,23 @@ mission = "Ensures the technical design and contributes to the implementation of
 [e-competences] 
   enable = true
 
-    [pare-competences.list]
+    [e-competences.list]
       id = "A.5"
       title = "Architecture Design"
       level = 3 
 
-    [pare-competences.list]
+    [e-competences.list]
       id = "B.5"
       title = "Documentation Production"
       level = 3 
 
 
-    [pare-competences.list]
+    [e-competences.list]
       id = "B.6"
       title = "Systems Engineering"
       level = 3
 
-    [pare-competences.list]
+    [e-competences.list]
       id = "E.5"
       title = "Process Improvement"
       level = 3
