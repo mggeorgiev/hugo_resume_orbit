@@ -1,0 +1,58 @@
+name = "Account Manager"
+license = "MIT"
+licenselink = "//github.com/aerohub/hugo-orbit-theme/blob/master/LICENSE.md"
+description = ""
+tags = ["cv", "resume", "colour schemes"]
+features = ["responsive", "colour schemes"]
+version = 2
+
+[author]
+  name = "Martin georgiev"
+  homepage = "https://martingeorgiev.com/"
+
+title = "ACCOUNT MANAGER"
+summary_statement = "Senior focal point for client sales and customer satisfaction."
+mission = "Builds business relationships with clients to facilitate the sale of hardware, software, telecommunications or ICT services. Identifies opportunities and manages sourcing and delivery of products to customers. Has responsibility for achieving sales targets and maintaining profitability."
+[Deliverables]
+  accountable = "Sale"
+  responsible = "Business Relationship"
+  contributor = ["Sales Forecast", "Technical Proposal","Production Forecast"]
+  main_tasks = ["Maintain overall customer satisfaction with products and/or services"
+                , "Identify opportunities to propose new products or services"
+                , "Provide the primary contact point for client executive management"
+                , "Deliver value added presentations related to products and services to customer executive management"
+                , "Lead negotiations to establish profitable contracts with client(s)"
+                , "Maintain and enhance business relationships"
+              ]
+ 
+[e-competences] 
+  enable = true
+
+    [pare-competences.list]
+      id = "D.5"
+      title = "Sales Proposal Development"
+      level = 3 
+
+    [pare-competences.list]
+      id = "D.6"
+      title = "Channel Management"
+      level = 4 
+
+    [pare-competences.list]
+      id = "D.7"
+      title = "Sales Management"
+      level = 4 
+
+    [pare-competences.list]
+      id = "E.1"
+      title = "Forecast Development"
+      level = 3
+
+    [pare-competences.list]
+      id = "E.1"
+      title = "Relationship Management"
+      level = 4
+
+KPI = "Customer Satisfaction"
+ 
+ 
