@@ -1,0 +1,288 @@
+# Page settings
+
+baseurl = "https://martingeorgiev.com/"
+languageCode = "en-us"
+title = "martin Georgiev's  Resume"
+theme = "hugo_resume_orbit"
+googleAnalytics = "UA-110491290-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Martin Georgiev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-6.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Martin Georgiev"
+        tagline = "Solution Architect"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: mggeorgiev@gmail.com"
+        title = "mggeorgiev@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+359 89 84 666 89"
+        title = "+359 89 84 666 89"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//martingeorgiev.com"
+        title = "martingeorgiev.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/mggeorgiev"
+        title = "linkedin.com/in/mggeorgiev"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/mggeorgiev"
+        title = "github.com/mggeorgiev"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/mggeorgiev"
+        title = "@mggeorgiev"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Data Science"
+        college = "UNIBIT"
+        dates = "2019 - 2020"
+
+        [[params.education.list]]
+        degree = "BSc in Information technologies"
+        college = "UNIBIT"
+        dates = "2015 - 2019"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Bulgarian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Basic"
+
+    # QR section
+    [params.qrcode]
+        enable = true
+        title = "QR Code"
+        lastName = "Georgiev"
+        firstName = "Martin"
+        address = "Sofia, Bulgaria"
+        phone = "+359898466689"
+        email = "mggeorgiev@gmail.com"
+        url = "martingeorgiev.com"
+        note = "Information Broker"
+
+    
+        # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Photography"
+
+        [[params.interests.list]]
+        interest = "Motorsport"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "I am experienced in the translation of business requirements into End-to-End IT solutions, in line with the technical architecture. Accountable for the solution in operation, responsible for the solution descriptions, service, and user experience design."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Solution leader"
+        dates = "2015 - Present"
+        company = "DXC TECHNOLOGY"
+        details = "Transferred to DXC technology during the merger of HPE ES with CSC. My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        tasks = [
+            "Examination and interpretation of business requirements",
+            "Establishing solution intent",
+            "Aligning the solution with the technical architecture",
+            "Identification of potential technical design risks",
+            "Supervision of the built-in quality",
+            "Operation within the budgetary framework to validate the financial impact of design decisions",
+            "Identification of innovation opportunities",
+            "Planning technology roadmaps",
+            "Areas of expertise include Public and Private cloud."
+        ]        
+
+        [[params.jobs.list]]
+        position = "SALES SUPPORT SPECIALIST/DEAL DELIVERY ASSURANCE"
+        dates = "July 2011 - May 2015"
+        company = "HEWLETT-PACKARD"
+        details = """Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is **fit for purpose** and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal.
+                    \rI applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation, multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.
+                    \rMain tasks:"""
+        tasks = [
+            "Verify Service requirements",
+            "Negotiate SLA / OLA",
+            "Maintain and contribute to the creation of the service budget",
+            "Obtain stakeholders approval"
+            ]  
+
+        [[params.jobs.list]]
+        position = "CHANGE MANAGER"
+        dates = "July 2010 - December 2011"
+        company = "HEWLETT-PACKARD"
+        details = "As a Change Manager I had to ensure that projects/change initiatives meet objectives on time and on budget. My focus was on the people side of change – including changes to business processes, systems and technology, job roles and organization structures. The primary responsibility was to create and implement change management strategies and plans that maximized success rate and minimized risk of service disruption. The main goals were:"
+        tasks = [
+            "to drive faster change adoption",
+            "to drive higher ultimate utilization and greater proficiency of the changes that impact employees",
+            "to increase benefit realization, value creation, ROI and the achievement of results and outcomes"
+            ]
+        more = "As an MSI change manager I had to execute the above responsibilities on behalf of the customer in his multi-supplier environment and make sure that the suppliers adhere to the agreed process. On top of the regular Change Advisory Boards (CAB) I also chaired operational review meetings." 
+
+        [[params.jobs.list]]
+        position = "REPORTING SPECIALIST"
+        dates = "July 2005 - May 2007"
+        company = "SOFICA GROUP LTD"
+        details = "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices."
+
+        [[params.jobs.list]]
+        position = "SUPERVISOR"
+        dates = "May 2007 - November 2007"
+        company = "SOFICA GROUP LTD"
+        details = "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Power Querry"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "HUGO"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "ASP.NET"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Emtity Framework"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Blazor"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "GIMP & Photoshop"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Martin Georgiev"
