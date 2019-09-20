@@ -1,10 +1,11 @@
 <section class="skills-section section">
     <h2 class="section-title"><i class="fa {{ .Site.Params.competence.icon }}"></i>{{ i18n "competence" }}</h2>
+    <p>Hoover for more information</p>
     <div class="skillset">
     {{ range .Site.Params.competence.list }}
         <div class="item">
-            <h3 class="level-title">{{ .competence }}</h3>
-            <div class="level-bar">
+            <h3 class="level-title" >{{ .competence }}</h3>
+            <div class="level-bar" title=" {{ .tooltip }}">
                 <div class="level-bar-inner" data-level="{{ .level }}">
                 </div>
             </div><!--//level-bar-->
