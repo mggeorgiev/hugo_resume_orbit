@@ -116,7 +116,7 @@ disable404 = false
         phone = "+359897491263"
         email = "dimovaspaska@gmail.com"
         url = "martingeorgiev.com/pasha"
-        note = "Account manager"
+        note = "Account Manager"
 
     
         # Interests section
@@ -128,7 +128,7 @@ disable404 = false
         interest = "Photography"
 
         [[params.interests.list]]
-        interest = "Motorsport"
+        interest = "Travel"
 
         [[params.interests.list]]
         interest = "Cooking"
@@ -154,7 +154,7 @@ disable404 = false
         position = "Account manager"
         dates = "2019"
         company = "Pulsio Print"
-        details = "Builds business relationships with clients to facilitate the sale of hardware, software, telecommunications or ICT services. Identifies opportunities and manages sourcing and delivery of products to customers. Has responsibility for achieving sales targets and maintaining profitability."
+        details = "Build business relationships with clients to facilitate the sale of print products and consultancy services. Identify opportunities and manage sourcing and delivery of products to customers. Responsibile for achieving sales targets and maintaining profitability."
         tasks = [
                 "Maintain overall customer satisfaction with products and/or services"
                 , "Identify opportunities to propose new products or services"
