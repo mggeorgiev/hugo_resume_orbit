@@ -4,14 +4,17 @@
   
   <url>
     <loc>https://martingeorgiev.com/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://martingeorgiev.com/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://martingeorgiev.com/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
