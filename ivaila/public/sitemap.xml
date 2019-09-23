@@ -4,14 +4,17 @@
   
   <url>
     <loc>https://martingeorgiev.com/ivayla/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://martingeorgiev.com/ivayla/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://martingeorgiev.com/ivayla/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>

@@ -150,18 +150,42 @@ disable404 = false
         dates = "2013 – 2019"
         company = "GTT Communications, Inc. (Formerly Interoute Ltd)"
         details = "Acting as Senior Service Delivery Manager for the enterprise teams (20-30 people) operating on the UK market. I was providing leadership and taking responsibility for teams performances and development in dynamic and fast- paced environments. I was senior point of escalations for customers, as well as for third party companies/ vendors. Being on this position I was responsible for the end to end service delivery processes from quoting stage to final turn up of the services. Follow the acquisition I was deeply involved and strongly contributed to the integration and post- integration phase as: mapping existing delivery processes; driving process excellence in front of the customer and to the organization; Conduct post-implementation reviews to evaluate benefits accrued from new processes and system, as well as identifying the potential risks."
+        tasks = [
+            "Managed and maintained relationships with the customers via clear communication process;",
+            "Managed and maintained relationships with the external vendors and partners;",
+            "Worked with senior engineering management and project director to ensure process is followed and negotiating any areas, where improvement is needed;",
+            "Responsible for all types of Documentations: Processes; Vendors; Roles and responsibilities;",
+            "Responsible for: meeting the monthly targets, in terms of the planned financial forecast",
+            "Preparing yearly; mid- yearly reviews; reviewing and approving merits for the team members and Delivery managers"
+            ]
+        more = "" 
+
 
         [[params.jobs.list]]
         position = "Account Process Manager"
         dates = "2009 - 2013"
         company = "Hewlett-Packard Global Delivery Bulgaria Center EOOD"
         details = "As account process manager for change management process I had to ensure that projects/change initiatives meet objectives on time and on budget.  I’ve worked into cross- functional teams’ environment, where I did apply a structured methodology and lead change management activities. I was acting as a coach for senior tower leaders and executives in helping them fulfill the role of change sponsor. Another important focus and responsibility, which I had was to provide input, document requirements and support the design and delivery of training programs."
-
+        tasks = [
+            "Responsible for monthly/ weekly reporting stats and trends;",
+            "Chaired the regular CAB (Change Advisory Board) meeting;",
+            "Managed stakeholders;",
+            "Track and report issues;",
+            "Define and measure success metrics and monitor change progress;",
+            "Support change management at the organizational level;",
+            "Manage the change portfolio"
+            ]
+        
         [[params.jobs.list]]
         position = "Application administrator/ Trainee"
         dates = "2008 - 2009"
         company = "Mobiltel EAD"
         details = "Starting as a trainee in the Enterprise Operations Division. Then acting as application admin supporting the company`s CRM system based on ITIL fundamentals. Participating in the implementation of different ITIL modules: change, incident, problem management."
+        tasks = [
+            "Preparing system`s/tool`s SLAs`",
+            "Analyzing KPI`s reporting",
+            "Maintain ongoing documentations"
+            ]
 
     # Projects section
     [params.projects]
@@ -256,6 +280,48 @@ disable404 = false
         [[params.skills.list]]
         skill = "Basic Network knowledge"
         level = "60%"
+
+
+    # Skills section
+    [params.certificates]
+        enable = true
+        icon = "fa-rocket"
+        title = "Certificates"
+
+        [[params.certificates.list]]
+        certificate = "Scrum Master Practitioner"
+        type = "Training"
+        date = "2019"
+                
+        [[params.certificates.list]]
+        certificate = "Agile PM Foundation"
+        type = "Certified"
+        date = "2018"
+
+        [[params.certificates.list]]
+        certificate = "Prince2 Practitioner"
+        type = "Training"
+        date = "2015"
+
+        [[params.certificates.list]]
+        certificate = "Prince2 Foundation"
+        type = "Certified"
+        date = "2014"
+
+        [[params.certificates.list]]
+        certificate = "ITIL: Release, Control and Validation"
+        type = "Certified"
+        date = "2013"
+
+        [[params.certificates.list]]
+        certificate = "ITIL Foundation V3"
+        type = "Certified"
+        date = "2010"
+
+        [[params.certificates.list]]
+        certificate = "Customer Service Management3"
+        type = "Training"
+        date = "2013"
 
     # Footer section
 

@@ -1,0 +1,271 @@
+# Page settings
+
+baseurl = "https://martingeorgiev.com/"
+languageCode = "en-us"
+title = "Spaska Georgieva's Resume"
+theme = "hugo_resume_orbit"
+googleAnalytics = "UA-110491290-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Martin Georgiev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles-2.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Spaska Georgieva"
+        tagline = "Account Manager"
+        avatar = "profile.jpg"
+
+    # Contact section
+    [params.contact]
+        enable = false
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: dimovaspaska@gmail.com"
+        title = "dimovaspaska@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+359 89 749 1263"
+        title = "+359 89 749 1263"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//https://www.martingeorgiev.com/pasha/"
+        title = "https://www.martingeorgiev.com/pasha/"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "//https://www.linkedin.com/in/spaska-georgieva-b0b72bb0/"
+        title = "linkedin.com/in/"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/mggeorgiev"
+        title = "github.com/mggeorgiev"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/mggeorgiev"
+        title = "@mggeorgiev"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MSc in Digital Marketing"
+        college = "UNIBIT"
+        dates = "2019 - 2020"
+
+        [[params.education.list]]
+        degree = "BSc in Public Policies and Practicies"
+        college = "UNIBIT"
+        dates = "2015 - 2019"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Bulgarian"
+        level = "Native"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.language.list]]
+        language = "French"
+        level = "Professional"
+
+    # QR section
+    [params.qrcode]
+        enable = true
+        title = "QR Code"
+        lastName = "Georgieva"
+        firstName = "Spaska"
+        address = "Sofia, Bulgaria"
+        phone = "+359897491263"
+        email = "dimovaspaska@gmail.com"
+        url = "martingeorgiev.com/pasha"
+        note = "Account Manager"
+
+    
+        # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Photography"
+
+        [[params.interests.list]]
+        interest = "Travel"
+
+        [[params.interests.list]]
+        interest = "Cooking"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Senior focal point for client sales and customer satisfaction."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Account manager"
+        dates = "2019"
+        company = "Pulsio Print"
+        details = "Build business relationships with clients to facilitate the sale of print products and consultancy services. Identify opportunities and manage sourcing and delivery of products to customers. Responsibile for achieving sales targets and maintaining profitability."
+        tasks = [
+                "Maintain overall customer satisfaction with products and/or services"
+                , "Identify opportunities to propose new products or services"
+                , "Provide the primary contact point for client executive management"
+                , "Deliver value added presentations related to products and services to customer executive management"
+                , "Lead negotiations to establish profitable contracts with client(s)"
+                , "Maintain and enhance business relationships"
+        ]        
+
+        [[params.jobs.list]]
+        position = "Product manager"
+        dates = "October 2006 - July 2019"
+        company = "Texar Bulgaria - Dimatex"
+        details = """Represented the needs of the stakeholder community, expressed the voice of the customer, to the proction team. 
+                    \rUnderstood customer requirements and validated that the developed product meets them. Linked business and production teams. 
+                    \rMain tasks:"""
+        tasks = [
+            "Build, edit, and maintain the product backlog",
+            "Define, prioritise and validate product requirements",
+            "Maintain and contribute to the creation of the service budget",
+            "Obtain stakeholders approval",
+            "Relationship Management",
+            "Product planning"
+            , "Establish product acceptance criteria"
+            ,"Work across teams to define and implement improvement, and to enhance quality"
+            ]  
+
+        [[params.jobs.list]]
+        position = "Schedule manager"
+        dates = "April 2003 - September 2006"
+        company = "IMRO Ltd"
+                details = "I managed and a team of call centre agents.  I provided assistance by answering agent’s questions,  taking calls that they could not handle."
+
+    # Projects section
+    [params.projects]
+        enable = false
+        icon = "fa-archive"
+        title = "Projects"
+        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+
+        [[params.projects.list]]
+        title = "Hugrid"
+        url = "https://github.com/aerohub/hugrid"
+        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        url = "https://github.com/aerohub/hugo-faq-theme"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        url = "https://github.com/aerohub/hugo-identity-theme"
+        tagline = "Little profile/card-style template for Hugo."
+
+        [[params.projects.list]]
+        title = "Orbit"
+        url = "https://github.com/aerohub/hugo-orbit-theme"
+        tagline = "Hugo Resume/CV Theme for Developers."
+
+        [[params.projects.list]]
+        title = "Me"
+        url = "https://github.com/aerohub/hugo-me-theme"
+        tagline = "A simple responsive Hugo theme for personal site."
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Product planning"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Innovation"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Needs Identification"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Relationship Management"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Sales Proposal Development"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "Channel Managemen"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Sales Management"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "Forecast Developmen"
+        level = "60%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Martin Georgiev"
