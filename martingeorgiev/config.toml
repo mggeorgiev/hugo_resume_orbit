@@ -80,7 +80,7 @@ disable404 = false
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Data Science"
+        degree = "MSc in Software Engineering"
         college = "UNIBIT"
         dates = "2019 - 2020"
 
