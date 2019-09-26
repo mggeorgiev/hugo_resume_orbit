@@ -228,14 +228,14 @@ disable404 = false
         tagline = "Static business website generated with HUGO."
 
         [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        title = "Finance management"
+        url = "https://github.com/mggeorgiev/fm"
+        tagline = "Database application for fleet management. Provides transactions loging and analysis, trends, reports, fraud detection."
 
         [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
+        title = "martingeorgiev.com"
+        url = "https://github.com/mggeorgiev/hugo-resume"
+        tagline = "A simple responsive Hugo theme for a personal site."
 
     # Skills section
     [params.skills]
