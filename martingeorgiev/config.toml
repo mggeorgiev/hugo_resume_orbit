@@ -218,14 +218,14 @@ disable404 = false
         tagline = "Property management platform for condominia in the Republic of Bulgaria. Automates the budgeting, informing, calculating expences, and forecasting. Logs maintenance intevals and analyzes maintenance data. Built on ASP.NET Framework. In the oricess of being migrated to ASP.NET Core 3."
 
         [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+        title = "Fleet management"
+        url = "https://github.com/mggeorgiev/fleet-management"
+        tagline = "Database application for fleet management. Provides transactions loging and analysis."
 
         [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        title = "pekarnaudoma.com"
+        url = "https://github.com/mggeorgiev/pekarnaudoma"
+        tagline = "Static business website generated with HUGO."
 
         [[params.projects.list]]
         title = "Orbit"
