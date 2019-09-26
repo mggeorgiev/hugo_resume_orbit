@@ -210,7 +210,7 @@ disable404 = false
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = "List of software development projects. Technologies used: ASP.NET, C#, HUGO, SQL, Oracle APEX, Power BI, Orange 3."
 
         [[params.projects.list]]
         title = "EC-TH"
