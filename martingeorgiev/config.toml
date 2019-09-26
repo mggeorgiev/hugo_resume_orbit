@@ -213,9 +213,9 @@ disable404 = false
         intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
 
         [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "EC-TH"
+        url = "https://github.com/mggeorgiev/ec-th"
+        tagline = "Property management platform for condominia in the Republic of Bulgaria. Automates the budgeting, informing, calculating expences, and forecasting. Logs maintenance intevals and analyzes maintenance data. Built on ASP.NET Framework. In the oricess of being migrated to ASP.NET Core 3."
 
         [[params.projects.list]]
         title = "Simple FAQ Theme for Hugo"
