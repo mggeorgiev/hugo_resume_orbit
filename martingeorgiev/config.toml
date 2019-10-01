@@ -154,7 +154,7 @@ disable404 = false
         position = "Solution leader"
         dates = "2015 - Present"
         company = "DXC TECHNOLOGY"
-        details = "Transferred to DXC technology during the merger of HPE ES with CSC. My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
         tasks = [
             "Examination and interpretation of business requirements",
             "Establishing solution intent",
@@ -171,10 +171,10 @@ disable404 = false
         position = "SALES SUPPORT SPECIALIST/DEAL DELIVERY ASSURANCE"
         dates = "July 2011 - May 2015"
         company = "HEWLETT-PACKARD"
-        details = """Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is **fit for purpose** and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal.
-                    \rI applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation, multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.
+        details = """Responsible for the end to end service management and process and tools solution during pre-sales. 
                     \rMain tasks:"""
         tasks = [
+            "identify technical risk and challenges",
             "Verify Service requirements",
             "Negotiate SLA / OLA",
             "Maintain and contribute to the creation of the service budget",
@@ -198,7 +198,11 @@ disable404 = false
         dates = "July 2005 - May 2007"
         company = "SOFICA GROUP LTD"
         details = "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices."
-
+        tasks = [
+            "automate monthly reports creation",
+            "",
+            ""
+            ]
         [[params.jobs.list]]
         position = "SUPERVISOR"
         dates = "May 2007 - November 2007"
