@@ -1,6 +1,6 @@
 # Page settings
 
-baseurl = "https://martingeorgiev.com/"
+baseurl = "https://martingeorgiev.info/"
 languageCode = "en-us"
 title = "martin Georgiev's  Resume"
 theme = "hugo_resume_orbit"
@@ -53,8 +53,8 @@ disable404 = false
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//martingeorgiev.com"
-        title = "martingeorgiev.com"
+        url = "//martingeorgiev.info"
+        title = "martingeorgiev.info"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -115,7 +115,7 @@ disable404 = false
         address = "Sofia, Bulgaria"
         phone = "+359898466689"
         email = "mggeorgiev@gmail.com"
-        url = "martingeorgiev.com"
+        url = "martingeorgiev.info"
         note = "Information Broker"
 
     
@@ -149,6 +149,23 @@ disable404 = false
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Solution Architect"
+        dates = "2019 - 2020"
+        company = "PAIFFEISENBANK BULGARIA"
+        details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        tasks = [
+            "Examination and interpretation of business requirements",
+            "Establishing solution intent",
+            "Aligning the solution with the technical architecture",
+            "Identification of potential technical design risks",
+            "Supervision of the built-in quality",
+            "Operation within the budgetary framework to validate the financial impact of design decisions",
+            "Identification of innovation opportunities",
+            "Planning technology roadmaps",
+            "Areas of expertise include Public and Private cloud."
+        ]        
 
         [[params.jobs.list]]
         position = "Solution leader"
@@ -309,7 +326,7 @@ disable404 = false
                     take responsibility for managing professional development of individuals and groups"""
 
         [[params.competence.list]]
-        competence = "Information and Knowledge Managementt"
+        competence = "Information and Knowledge Management"
         level = "97%"
         phase = "Enable"
         tooltip = "demonstrate substantial authority, innovation, autonomy, scholarly and professional integrity and sustained commitment to the development of new ideas or processes at the forefront of work or study contexts including research"
