@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://martingeorgiev.com/categories/</loc>
+    <loc>https://martingeorgiev.info/categories/</loc>
   </url>
   
   <url>
-    <loc>https://martingeorgiev.com/</loc>
+    <loc>https://martingeorgiev.info/</loc>
   </url>
   
   <url>
-    <loc>https://martingeorgiev.com/tags/</loc>
+    <loc>https://martingeorgiev.info/tags/</loc>
   </url>
   
 </urlset>
