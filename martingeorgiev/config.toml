@@ -1,10 +1,10 @@
 # Page settings
 
-baseurl = "https://martingeorgiev.com/"
+baseurl = "https://martingeorgiev.info/"
 languageCode = "en-us"
 title = "martin Georgiev's  Resume"
 theme = "hugo_resume_orbit"
-googleAnalytics = "UA-110491290-1"
+googleAnalytics = "UA-110491290-3"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = false
@@ -53,8 +53,8 @@ disable404 = false
         [[params.contact.list]]
         class = "website"
         icon = "fa-globe"
-        url = "//martingeorgiev.com"
-        title = "martingeorgiev.com"
+        url = "//martingeorgiev.info"
+        title = "martingeorgiev.info"
 
         [[params.contact.list]]
         class = "linkedin"
@@ -115,7 +115,7 @@ disable404 = false
         address = "Sofia, Bulgaria"
         phone = "+359898466689"
         email = "mggeorgiev@gmail.com"
-        url = "martingeorgiev.com"
+        url = "martingeorgiev.info"
         note = "Information Broker"
 
     
@@ -303,7 +303,7 @@ disable404 = false
 
         [[params.competence.list]]
         competence = "Architecture Design"
-        level = "60%"
+        level = "80%"
         phase = "Plan"
         tooltip = """manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts;
                     take responsibility for managing professional development of individuals and groups"""
