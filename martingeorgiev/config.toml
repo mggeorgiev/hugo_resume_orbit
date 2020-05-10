@@ -151,8 +151,25 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Solution Architect"
+        dates = "2019 - 2020"
+        company = "Raiffeisenbank Bulgaria EAD"
+        details = "My responsibilities include the development of enterprise solution architecture, ensuring consistency and compliance with information technology standards and regulations. My tasks include:"
+        tasks = [
+            "Examination and interpretation of business requirements",
+            "Establishing solution intent",
+            "Aligning the solution with the technical architecture",
+            "Identification of potential technical design risks",
+            "Supervision of the built-in quality",
+            "Operation within the budgetary framework to validate the financial impact of design decisions",
+            "Identification of innovation opportunities",
+            "Planning technology roadmaps",
+            "Areas of expertise include application modernization and migration to cloud-native design."
+        ] 
+
+        [[params.jobs.list]]
         position = "Solution leader"
-        dates = "2015 - Present"
+        dates = "2015 - 2019"
         company = "DXC TECHNOLOGY"
         details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
         tasks = [
