@@ -41,8 +41,8 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: mggeorgiev@gmail.com"
-        title = "mggeorgiev@gmail.com"
+        url = "mailto: martin@martingeorgiev.com"
+        title = "martin@martingeorgiev.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -114,9 +114,9 @@ disable404 = false
         firstName = "Martin"
         address = "Sofia, Bulgaria"
         phone = "+359898466689"
-        email = "mggeorgiev@gmail.com"
+        email = "martin@martingeorgiev.com"
         url = "martingeorgiev.info"
-        note = "Information Broker"
+        note = "Solution Architect"
 
     
         # Interests section
@@ -217,7 +217,7 @@ disable404 = false
         details = "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices."
         tasks = [
             "automate monthly reports creation",
-            "",
+            "Analysis",
             ""
             ]
         [[params.jobs.list]]
@@ -290,6 +290,18 @@ disable404 = false
 
         [[params.skills.list]]
         skill = "Blazor"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "Azure Kubernetes Service"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "AKS Engine"
+        level = "35%"
+        
+        [[params.skills.list]]
+        skill = "Terraform - Azure"
         level = "55%"
 
         [[params.skills.list]]
