@@ -4,7 +4,7 @@ baseurl = "https://martingeorgiev.info/"
 languageCode = "en-us"
 title = "martin Georgiev's  Resume"
 theme = "hugo_resume_orbit"
-googleAnalytics = "UA-110491290-1"
+googleAnalytics = "UA-110491290-3"
 
 # Do not build files for websites. Need them? Set to false
 disableRSS = false
@@ -41,8 +41,8 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: mggeorgiev@gmail.com"
-        title = "mggeorgiev@gmail.com"
+        url = "mailto: martin@martingeorgiev.com"
+        title = "martin@martingeorgiev.com"
 
         [[params.contact.list]]
         class = "phone"
@@ -114,9 +114,9 @@ disable404 = false
         firstName = "Martin"
         address = "Sofia, Bulgaria"
         phone = "+359898466689"
-        email = "mggeorgiev@gmail.com"
+        email = "martin@martingeorgiev.com"
         url = "martingeorgiev.info"
-        note = "Information Broker"
+        note = "Solution Architect"
 
     
         # Interests section
@@ -153,8 +153,8 @@ disable404 = false
         [[params.jobs.list]]
         position = "Solution Architect"
         dates = "2019 - 2020"
-        company = "PAIFFEISENBANK BULGARIA"
-        details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        company = "Raiffeisenbank Bulgaria EAD"
+        details = "My responsibilities include the development of enterprise solution architecture, ensuring consistency and compliance with information technology standards and regulations. My tasks include:"
         tasks = [
             "Examination and interpretation of business requirements",
             "Establishing solution intent",
@@ -164,14 +164,14 @@ disable404 = false
             "Operation within the budgetary framework to validate the financial impact of design decisions",
             "Identification of innovation opportunities",
             "Planning technology roadmaps",
-            "Areas of expertise include Public and Private cloud."
-        ]        
+            "Areas of expertise include application modernization and migration to cloud-native design."
+        ] 
 
         [[params.jobs.list]]
         position = "Solution leader"
-        dates = "2015 - Present"
+        dates = "2015 - 2019"
         company = "DXC TECHNOLOGY"
-        details = "Transferred to DXC technology during the merger of HPE ES with CSC. My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
+        details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
         tasks = [
             "Examination and interpretation of business requirements",
             "Establishing solution intent",
@@ -188,10 +188,10 @@ disable404 = false
         position = "SALES SUPPORT SPECIALIST/DEAL DELIVERY ASSURANCE"
         dates = "July 2011 - May 2015"
         company = "HEWLETT-PACKARD"
-        details = """Responsible for the end to end service management and process and tools solution during pre-sales. Verified that the proposed solution is **fit for purpose** and in line with the contractual obligation. Contributed to the definition of Service Level Agreements (SLAs), Operational Level Agreements (OLAs) contracts and Key Performance Indicators (KPIs), Quality Performance Indicators and technical proposal.
-                    \rI applied subject matter knowledge to solve common and complex business issues within established guidelines and recommends appropriate alternatives. I worked on problems of diverse complexity and scope. I identified technical risks and challenges the customer should expect to encounter with the solution. Tools used: HP SM (including all the ITIL modules), HP Operations Manager, Enterprise Service Portal, Reporting , Run Book Automation, HP Server Automation, multiple case exchange technologies, and 50 other internal tools logically grouped in the HP Standard Reference Architecture.
+        details = """Responsible for the end to end service management and process and tools solution during pre-sales. 
                     \rMain tasks:"""
         tasks = [
+            "identify technical risk and challenges",
             "Verify Service requirements",
             "Negotiate SLA / OLA",
             "Maintain and contribute to the creation of the service budget",
@@ -215,7 +215,12 @@ disable404 = false
         dates = "July 2005 - May 2007"
         company = "SOFICA GROUP LTD"
         details = "Contractor at Hewlett Packard. My role was to ensure that all service level agreements (SLAs) across the organization were delivered according to specifications. This includes developing, managing, and administering service management best practices."
-
+        tasks = [
+            "Raw data verification",
+            "Automate monthly reports creation"
+            ,"Optimization"
+            ,"Analysis"
+            ]
         [[params.jobs.list]]
         position = "SUPERVISOR"
         dates = "May 2007 - November 2007"
@@ -289,8 +294,20 @@ disable404 = false
         level = "55%"
 
         [[params.skills.list]]
-        skill = "GIMP & Photoshop"
-        level = "60%"
+        skill = "Azure Kubernetes Service"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "AKS Engine"
+        level = "35%"
+        
+        [[params.skills.list]]
+        skill = "Terraform - Azure"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Ansible"
+        level = "55%"
 
     # Experiences section
     [params.competence]
@@ -299,7 +316,7 @@ disable404 = false
 
         [[params.competence.list]]
         competence = "Architecture Design"
-        level = "60%"
+        level = "80%"
         phase = "Plan"
         tooltip = """manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts;
                     take responsibility for managing professional development of individuals and groups"""
