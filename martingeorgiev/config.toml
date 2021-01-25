@@ -151,6 +151,18 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
+        position = "Systems design expert"
+        dates = "2020 - present"
+        company = "FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A."
+        details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Regosting, Replatforming, Rearchitecting):"
+        tasks = [
+            "Establishing solution intent",
+            "Design and deploy proprietary PAAS solutions based on IaC",
+            "Help the teams in developing Azure Cloud skills"
+        ] 
+
+
+        [[params.jobs.list]]
         position = "Solution Architect"
         dates = "2019 - 2020"
         company = "Raiffeisenbank Bulgaria EAD"
