@@ -82,7 +82,7 @@ disable404 = false
         [[params.education.list]]
         degree = "MSc in Software Engineering"
         college = "UNIBIT"
-        dates = "2019 - 2020"
+        dates = "2019 - present"
 
         [[params.education.list]]
         degree = "BSc in Information technologies"
@@ -151,7 +151,7 @@ disable404 = false
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Systems design expert"
+        position = "SYSTEMS DESIGN EXPERT"
         dates = "2020 - present"
         company = "FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A."
         details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Regosting, Replatforming, Rearchitecting):"
@@ -163,9 +163,9 @@ disable404 = false
 
 
         [[params.jobs.list]]
-        position = "Solution Architect"
+        position = "SOLUTION ARCHITECT"
         dates = "2019 - 2020"
-        company = "Raiffeisenbank Bulgaria EAD"
+        company = "RAIFFEISENBANK BULGARIA EAD"
         details = "My responsibilities include the development of enterprise solution architecture, ensuring consistency and compliance with information technology standards and regulations. My tasks include:"
         tasks = [
             "Examination and interpretation of business requirements",
@@ -180,7 +180,7 @@ disable404 = false
         ] 
 
         [[params.jobs.list]]
-        position = "Solution leader"
+        position = "SOLUTION LEADER"
         dates = "2015 - 2019"
         company = "DXC TECHNOLOGY"
         details = "My responsibilities include solution development (service start-up, technology and process transformation, ongoing refresh), competitive costing, business case alignment, value proposition. On top of the previous responsibilities, my tasks include:"
