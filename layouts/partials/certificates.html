@@ -1,16 +1,12 @@
 <section class="certificate-section section">
     <h2 class="section-title"><i class="fa {{ .Site.Params.certificates.icon }}"></i>{{ i18n "certificates" }}</h2>
     <div class="item">
-    {{ range .Site.Params.certificates.list }}
-        </div><!--//item-->
-        <div class="item">
-            <div class="meta">
-                <div class="upper-row">
-                    <h3 class="job-title">{{ .certificate }}</h3>
-                    <div class="time">{{ .date }}</div>
-                </div><!--//upper-row-->
-                <div class="company">{{ .type }}</div>
-            </div><!--//meta-->
-    {{ end }}
-    </div>
+    </div><!--//item-->
+    <div class="item">
+        <div class="meta">
+                {{ range .Site.Params.certificates.list }}
+                    <a href="{{ .link }}"><img border="0" src="{{ .image }}" alt="{{ .alt }}" width="{{ .width }} " height="{{ .height }}">
+                {{ end }}
+                </div><!--//meta-->
+            </div>
 </section><!--//skills-section-->
