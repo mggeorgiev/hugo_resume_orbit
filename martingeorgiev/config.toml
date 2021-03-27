@@ -379,7 +379,6 @@ disable404 = false
         phase = "Manage"
         tooltip = "manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts; take responsibility for managing professional development of individuals and groups"
 
-
         [[params.competence.levels]]
         level4 = "exercise self-management within the guidelines of work or study contexts that are usually predictable, but are subject to change; supervise the routine work of others, taking some responsibility for the evaluation and improvement of work or study activities"
         level5 = "exercise management and supervision in contexts of work or study activities where there is unpredictable change; review and develop performance of self and others"
