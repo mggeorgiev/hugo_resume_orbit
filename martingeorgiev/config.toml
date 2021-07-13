@@ -430,7 +430,7 @@ disable404 = false
         [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Security Engineer Associate"
         link = "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url"
-        image = "https://https://images.credly.com/size/340x340/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png"
+        image = "https://images.credly.com/size/340x340/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png"
         alt="Microsoft Certified: Azure Security Engineer Associate"
         width="120"
         height="120"
