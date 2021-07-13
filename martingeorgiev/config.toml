@@ -428,6 +428,15 @@ disable404 = false
         class="cr-badges-full-badge__img"
 
         [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Security Engineer Associate"
+        link = "https://www.credly.com/badges/6e066c5a-cfc8-4143-8708-6a10aad6ffee/public_url"
+        image = "https://https://images.credly.com/size/340x340/images/1ad16b6f-2c71-4a2e-ae74-ec69c4766039/azure-security-engineer-associate600x600.png"
+        alt="Microsoft Certified: Azure Security Engineer Associate"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"
+
+        [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Database Administrator Associate"
         link = "https://www.credly.com/badges/d22e8f1d-71f8-40f4-b358-24aa635e8391/public_url"
         image = "https://images.credly.com/size/340x340/images/edc0b0d8-55ec-4dfe-9353-22c1bc4e07e8/azure-database-administrator-associate-600x600.png"
