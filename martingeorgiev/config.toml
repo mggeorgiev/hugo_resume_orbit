@@ -154,7 +154,7 @@ disable404 = false
         position = "SYSTEMS DESIGN EXPERT"
         dates = "2020 - present"
         company = "FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A."
-        details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Regosting, Replatforming, Rearchitecting):"
+        details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Rehosting, Replatforming, Rearchitecting):"
         tasks = [
             "Establishing solution intent",
             "Design and deploy proprietary PAAS solutions based on IaC",
