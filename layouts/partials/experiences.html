@@ -27,6 +27,16 @@
                         <p>{{ with .more }}{{ . | markdownify }}{{ end }}</p>
                     </div><!--//details-->
                     {{ end}}
+                    {{ if (isset . "technologies") }} <!--/conditional only if thecnologies are added-->
+                        <div class="item">
+                            <p>Technologies used:</p>
+                            {{ range .technologies }}
+                            <ul>
+                                  <li>{{ . }}</li>
+                            </ul>
+                            {{ end }}
+                        </div><!--//technologies-->
+                    {{ end}}
                 </div><!--//item-->
 				{{ end }}
             </section><!--//section-->

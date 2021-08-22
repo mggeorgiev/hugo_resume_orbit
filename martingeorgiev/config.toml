@@ -156,11 +156,20 @@ disable404 = false
         company = "FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A."
         details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Rehosting, Replatforming, Rearchitecting):"
         tasks = [
-            "Establishing solution intent",
+            "Define, plan and deliver modern solutions and cloud-based enterprise architectures",
+            "Realize or lead proof of concepts",
             "Design and deploy proprietary PAAS solutions based on IaC",
-            "Help the teams in developing Azure Cloud skills"
-        ] 
-
+            "Help the teams in developing Azure Cloud skills and capabilities"
+        ]
+        technologies = [
+            "Azure CLI",
+            "Terraform",
+            "ARM templates",
+            "AKS",
+            "Azure DevOps",
+            "Azure IAAS",
+            "Azure PAAS"
+        ]
 
         [[params.jobs.list]]
         position = "SOLUTION ARCHITECT"
