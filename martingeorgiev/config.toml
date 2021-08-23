@@ -287,31 +287,27 @@ disable404 = false
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "SQL"
-        level = "98%"
-
-        [[params.skills.list]]
-        skill = "Terraform - AzureRM"
-        level = "75%"
-
-        [[params.skills.list]]
         skill = "Ansible"
         level = "60%"
-
-        [[params.skills.list]]
-        skill = "Power Querry"
-        level = "85%"
-
-        [[params.skills.list]]
-        skill = "HUGO"
-        level = "95%"
 
         [[params.skills.list]]
         skill = "ASP.NET"
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Entity Framework"
+        skill = "Azure CLI"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "AKS Engine"
+        level = "35%"
+
+        [[params.skills.list]]
+        skill = "Azure Kubernetes Service"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "BASH"
         level = "75%"
 
         [[params.skills.list]]
@@ -319,12 +315,24 @@ disable404 = false
         level = "55%"
 
         [[params.skills.list]]
-        skill = "Azure Kubernetes Service"
-        level = "65%"
+        skill = "Entity Framework"
+        level = "75%"
 
         [[params.skills.list]]
-        skill = "AKS Engine"
-        level = "35%"
+        skill = "HUGO"
+        level = "75%"
+
+        [[params.skills.list]]
+        skill = "Power Querry"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "98%"
+
+        [[params.skills.list]]
+        skill = "Terraform - AzureRM"
+        level = "75%"
 
     # Experiences section
     [params.competence]
