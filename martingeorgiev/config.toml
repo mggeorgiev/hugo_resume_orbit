@@ -323,7 +323,7 @@ disable404 = false
         level = "75%"
 
         [[params.skills.list]]
-        skill = "Power Querry"
+        skill = "Power Query"
         level = "85%"
 
         [[params.skills.list]]
@@ -436,6 +436,15 @@ disable404 = false
         link = "https://www.credly.com/badges/bb999e47-ec08-4c98-9816-2666391e00b4/public_url"
         image = "https://images.credly.com/size/340x340/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png"
         alt="Microsoft Certified: Azure Administrator Associate"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"
+
+        [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Network Engineer Associate"
+        link = "https://www.credly.com/badges/68ed457f-c656-4785-a7d8-23f2818cabca/public_url"
+        image = "https://images.credly.com/size/340x340/images/c3a2e51d-7984-48cc-a4cb-88d4e8487037/azure-network-engineer-associate-600x600.png"
+        alt="Microsoft Certified: Azure Network Engineer Associate"
         width="120"
         height="120"
         class="cr-badges-full-badge__img"
