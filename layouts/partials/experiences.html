@@ -28,15 +28,15 @@
                     </div><!--//details-->
                     {{ end}}
                     
-                    {{ if (isset . "achievements") }} <!--/conditional only if thecnologies are added-->
-                        <div class="item">
-                            <p>Major achievements:</p>
-                            {{ range .achievements }}
-                            <ul>
-                                  <li>{{ . }}</li>
-                            </ul>
-                            {{ end }}
-                        </div><!--//technologies-->
+                    {{ if (isset . "achievements") }} <!--/conditional only if achievements are added-->
+                            <div class="item">
+                                <p>Major achievements:</p>
+                                {{ range .achievements }}
+                                <ul>
+                                    <li>{{ . }}</li>
+                                </ul>
+                                {{ end }}
+                            </div><!--//achievements-->
                     {{ end}}
                     
                     {{ if (isset . "technologies") }} <!--/conditional only if thecnologies are added-->
