@@ -161,6 +161,11 @@ disable404 = false
             "Design and deploy proprietary PAAS solutions based on IaC",
             "Help the teams in developing Azure Cloud skills and capabilities"
         ]
+        achievements = [
+            "Created an analytical and reporting solution based on Power BI, Power Query, Azure DevOps.",
+            "Created and maintained 2 basis repositories used for IaC deployments that increased the standartisation of the delivery to ~65%",
+            "Created 4 types of pipelines that were used in 15 landing zones"
+        ]
         technologies = [
             "Azure CLI",
             "Terraform",
@@ -186,7 +191,10 @@ disable404 = false
             "Identification of innovation opportunities",
             "Planning technology roadmaps",
             "Areas of expertise include application modernization and migration to cloud-native design."
-        ] 
+        ]
+        achievements = [
+            "Completed projects concerning regulatory and compliance and anti-fraud."
+        ]        
 
         [[params.jobs.list]]
         position = "SOLUTION LEADER"
@@ -203,8 +211,16 @@ disable404 = false
             "Identification of innovation opportunities",
             "Planning technology roadmaps",
             "Areas of expertise include Public and Private cloud."
-        ]        
-
+        ]
+        achievements = [
+            "Worked on ~ 40 opportunities.",
+            "Created 7 custom costing and risk assessment solutions that were reused in a team of 10 solution architects"
+        ]
+        
+        technologies = [
+            "Private and Public clouds, in house automation"
+        ]
+        
         [[params.jobs.list]]
         position = "SALES SUPPORT SPECIALIST/DEAL DELIVERY ASSURANCE"
         dates = "July 2011 - May 2015"
@@ -218,6 +234,15 @@ disable404 = false
             "Maintain and contribute to the creation of the service budget",
             "Obtain stakeholders approval"
             ]  
+        achievements = [
+            "Worked on ~ 40 opportunities.",
+            "Created 7 custom costing and risk assessment solutions that were reused in a team of 10 solution architects"
+        ]
+        technologies = [
+            "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
+            "Integrated presales tools",
+            "Generated reporting and analysis that was instrumental for higher management decision making."
+        ]        
 
         [[params.jobs.list]]
         position = "CHANGE MANAGER"
@@ -230,6 +255,17 @@ disable404 = false
             "to increase benefit realization, value creation, ROI and the achievement of results and outcomes"
             ]
         more = "As an MSI change manager I had to execute the above responsibilities on behalf of the customer in his multi-supplier environment and make sure that the suppliers adhere to the agreed process. On top of the regular Change Advisory Boards (CAB) I also chaired operational review meetings." 
+        achievements = [
+            "Automated the reporting that reduced the time to generate from 4 hours to under 5 minutes - on a daily basis.",
+            "Automated the Technical Advisory Board (TAB) and Change Advisory Board agenda verification and generation. On top of the time saved this increased the quality and reduced the errors from ~ 10 per week to 1 per month.",
+            "Designed, implemented and supported a combined Operational and Decision support system that shared the same set of data. This facilitated the tracking and improvement of 5 to 25 KPIs and provided historical data analysis.",
+            "Facilitated the integration of various Service management tools."
+        ]
+        technologies = [
+            "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
+            "Integrated presales tools",
+            "Generated reporting and analysis that was instrumental for higher management decision making."
+        ] 
 
         [[params.jobs.list]]
         position = "REPORTING SPECIALIST"
@@ -242,6 +278,17 @@ disable404 = false
             ,"Optimization"
             ,"Analysis"
             ]
+        achievements = [
+            "Automated the generation of around 70 reports that reduced the time to produce them from three weeks to 4 hours and increased the quality and reliability.",
+            "This allowed the time previously used for data gathering and aggregation to be devoted to analysis, which increased the quality of the service and the customer satisfaction."
+        ]
+        technologies = [
+            "HP Service Manager",
+            "ESAR",
+            "ESL",
+            "Visual Basic for Application (VBA)"
+        ]
+
         [[params.jobs.list]]
         position = "SUPERVISOR"
         dates = "May 2007 - November 2007"
