@@ -470,6 +470,15 @@ disable404 = false
         class="cr-badges-full-badge__img"
 
         [[params.certificates.list]]
+        certificate = "Microsoft Certified: Cybersecurity Architect Expert"
+        link = "https://www.credly.com/badges/81752e77-0fe8-4ae2-8b43-989959b158ef/public_url"
+        image = "https://images.credly.com/size/340x340/images/0ba22331-acf9-4e8a-8ce3-b4cc3d376040/image.png"
+        alt="Microsoft Certified: Cybersecurity Architect Expert"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"        
+
+        [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Developer Associate"
         link = "https://www.credly.com/badges/fe3d9070-5a1e-4fa3-87da-4cffa2536684/public_url"
         image = "https://images.credly.com/size/340x340/images/63316b60-f62d-4e51-aacc-c23cb850089c/azure-developer-associate-600x600.png"
