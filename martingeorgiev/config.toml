@@ -235,13 +235,14 @@ disable404 = false
             "Obtain stakeholders approval"
             ]  
         achievements = [
-            "Worked on ~ 40 opportunities.",
-            "Created 7 custom costing and risk assessment solutions that were reused in a team of 10 solution architects"
-        ]
-        technologies = [
             "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
             "Integrated presales tools",
             "Generated reporting and analysis that was instrumental for higher management decision making."
+        ]
+        technologies = [
+            "Virtual Private Cloud",
+            "Private Cloud",
+            "Azure Public Cloud"
         ]        
 
         [[params.jobs.list]]
@@ -262,9 +263,10 @@ disable404 = false
             "Facilitated the integration of various Service management tools."
         ]
         technologies = [
-            "Worked on ~ 130 opportunities - and never had a customer rejection of the service line.",
-            "Integrated presales tools",
-            "Generated reporting and analysis that was instrumental for higher management decision making."
+            "HP Service Manager",
+            "ESAR",
+            "ESL",
+            "Visual Basic for Application (VBA)"
         ] 
 
         [[params.jobs.list]]
@@ -453,7 +455,7 @@ disable404 = false
 
         [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Solutions Architect Expert"
-        link = "https://www.credly.com/badges/4bba4668-05eb-4579-8043-d7123cd9c722/public_url"
+        link = "https://www.credly.com/badges/c1c81249-53c1-491e-af54-567d4540a468/public_url"
         image = "https://images.credly.com/size/340x340/images/649069f9-27f1-4d2b-92bc-c674bc67bd02/azure-solutions-architect-expert-600x600.png"
         alt="Microsoft Certified: Azure Solutions Architect Expert"
         width="120"
