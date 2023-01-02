@@ -34,12 +34,12 @@ jobs:
             username: ${{ secrets.ACR_USERNAME }}
             password: ${{ secrets.ACR_PASSWORD }}
 
-      # - name: Build the Docker image
-      #   run: |
-      #     docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievinfo:latest
-      #     docker push martingeorgiev.azurecr.io/martingeorgievinfo:latest
-      #     docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
-      #     docker push martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
+      - name: Build and publish the Docker image
+        run: |
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievinfo:latest
+          docker push martingeorgiev.azurecr.io/martingeorgievinfo:latest
+          docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
+          docker push martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
       
       # - name: Azure login
       #   uses: azure/login@v1
