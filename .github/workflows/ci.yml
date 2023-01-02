@@ -27,12 +27,12 @@ jobs:
         # working-directory: scripts
         run: hugo --config ./martingeorgiev/config.toml --themesDir ../.. --destination ./martingeorgiev/public
 
-      # - name: Azure Container registry login
-      #   uses: azure/docker-login@v1
-      #   with:
-      #       login-server: martingeorgiev.azurecr.io
-      #       username: ${{ secrets.ACR_USERNAME }}
-      #       password: ${{ secrets.ACR_PASSWORD }}
+      - name: Azure Container registry login
+        uses: azure/docker-login@v1
+        with:
+            login-server: martingeorgiev.azurecr.io
+            username: ${{ secrets.ACR_USERNAME }}
+            password: ${{ secrets.ACR_PASSWORD }}
 
       # - name: Build the Docker image
       #   run: |
