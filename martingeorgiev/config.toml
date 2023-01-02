@@ -173,7 +173,8 @@ disable404 = false
             "AKS",
             "Azure DevOps",
             "Azure IAAS",
-            "Azure PAAS"
+            "Azure PAAS",
+            "Hashicorp stack"
         ]
 
         [[params.jobs.list]]
@@ -337,7 +338,7 @@ disable404 = false
 
         [[params.skills.list]]
         skill = "Ansible"
-        level = "60%"
+        level = "50%"
 
         [[params.skills.list]]
         skill = "ASP.NET"
@@ -382,6 +383,18 @@ disable404 = false
         [[params.skills.list]]
         skill = "Terraform - AzureRM"
         level = "75%"
+
+        [[params.skills.list]]
+        skill = "Hashicorp Vault"
+        level = "55%"
+
+        [[params.skills.list]]
+        skill = "Hashicorp Nomad"
+        level = "65%"
+
+        [[params.skills.list]]
+        skill = "Hashicorp Consul"
+        level = "35%"
 
     # Experiences section
     [params.competence]
