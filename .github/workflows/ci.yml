@@ -41,10 +41,10 @@ jobs:
           docker build . --file ./Dockerfile --tag martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
           docker push martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
       
-      # - name: Azure login
-      #   uses: azure/login@v1
-      #   with:
-      #       creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Azure login
+        uses: azure/login@v1
+        with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
 
   #     - name: Delete old files from blob storage
   #       uses: azure/CLI@v1
