@@ -25,7 +25,7 @@ jobs:
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
         working-directory: scripts
-        run: hugo --config ./martingeorgiev/config.toml --themesDir ../ --destination ./martingeorgiev/public
+        run: hugo --config ./martingeorgiev/config.toml --themesDir ../.. --destination ./martingeorgiev/public
 
       # - name: Azure Container registry login
       #   uses: azure/docker-login@v1
