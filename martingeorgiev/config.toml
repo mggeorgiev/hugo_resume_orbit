@@ -152,7 +152,7 @@ disable404 = false
 
         [[params.jobs.list]]
         position = "SYSTEMS DESIGN EXPERT"
-        dates = "2020 - present"
+        dates = "2020 - 2023"
         company = "FUJITSU TECHNOLOGY SOLUTIONS (LUXEMBOURG) S.A."
         details = "Support the migration of on-premise solutions to the cloud by evaluating the approach (Rehosting, Replatforming, Rearchitecting):"
         tasks = [
