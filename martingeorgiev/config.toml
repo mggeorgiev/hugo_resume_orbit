@@ -566,6 +566,15 @@ disable404 = false
         class="cr-badges-full-badge__img"
 
         [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Cosmos DB Developer Specialty"
+        link = "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/1850DBE7297C7494?sharingId=82F52B805604FDC7"
+        image = "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
+        alt="Microsoft Certified: Azure Cosmos DB Developer Specialty"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"
+
+        [[params.certificates.list]]
         certificate = "HashiCorp Certified: Terraform Associate"
         link = "https://www.credly.com/badges/03b4951d-0f62-49fa-91d5-165fd27d3748/public_url"
         image = "https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
