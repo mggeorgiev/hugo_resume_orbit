@@ -566,6 +566,15 @@ disable404 = false
         class="cr-badges-full-badge__img"
 
         [[params.certificates.list]]
+        certificate = "Microsoft Certified: Azure Data Engineer Associate"
+        link = "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/66E766B81E18DAEA?sharingId=82F52B805604FDC7"
+        image = "https://learn.microsoft.com/fr-fr/media/learn/certification/badges/microsoft-certified-associate-badge.svg"
+        alt="Microsoft Certified: Azure Data Engineer Associate"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"
+
+        [[params.certificates.list]]
         certificate = "Microsoft Certified: Azure Cosmos DB Developer Specialty"
         link = "https://learn.microsoft.com/api/credentials/share/en-us/mggeorgiev/1850DBE7297C7494?sharingId=82F52B805604FDC7"
         image = "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg"
