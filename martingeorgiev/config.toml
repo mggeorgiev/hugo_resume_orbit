@@ -389,7 +389,7 @@ disable404 = false
 
         [[params.skills.list]]
         skill = "Blazor"
-        level = "55%"
+        level = "65%"
 
         [[params.skills.list]]
         skill = "Entity Framework"
@@ -400,15 +400,19 @@ disable404 = false
         level = "75%"
 
         [[params.skills.list]]
+        skill = "Kusto"
+        level = "55%"
+
+        [[params.skills.list]]
         skill = "Power Query"
-        level = "85%"
+        level = "75%"
 
         [[params.skills.list]]
         skill = "SQL"
-        level = "98%"
+        level = "90%"
 
         [[params.skills.list]]
-        skill = "Terraform - AzureRM"
+        skill = "Terraform - AzureRM, AZAPI"
         level = "75%"
 
         [[params.skills.list]]
@@ -451,33 +455,33 @@ disable404 = false
 
         [[params.competence.list]]
         competence = "Systems Engineering"
-        level = "60%"
+        level = "80%"
         phase = "Build"
         tooltip = """manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts;
                     take responsibility for managing professional development of individuals and groups"""
 
         [[params.competence.list]]
         competence = "Information and Knowledge Management"
-        level = "97%"
+        level = "90%"
         phase = "Enable"
         tooltip = "demonstrate substantial authority, innovation, autonomy, scholarly and professional integrity and sustained commitment to the development of new ideas or processes at the forefront of work or study contexts including research"
 
 
         [[params.competence.list]]
         competence = "Forecast Development"
-        level = "80%"
+        level = "60%"
         phase = "Enable"
         tooltip = "manage and transform work or study contexts that are complex, unpredictable and require new strategic approaches; take responsibility for contributing to professional knowledge and practice and/or for reviewing the strategic performance of teams"
         
         [[params.competence.list]]
         competence = "Needs Identification"
-        level = "60%"
+        level = "80%"
         phase = "Enable"
         tooltip = "manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts; take responsibility for managing professional development of individuals and groups"
 
         [[params.competence.list]]
         competence = "Process Improvement"
-        level = "60%"
+        level = "80%"
         phase = "Manage"
         tooltip = "manage complex technical or professional activities or projects, taking responsibility for decision-making in unpredictable work or study contexts; take responsibility for managing professional development of individuals and groups"
 
@@ -609,6 +613,15 @@ disable404 = false
         width="120"
         height="120"
         class="cr-badges-full-badge__img"     
+
+        [[params.certificates.list]]
+        certificate = "Kusto Detective Agency - Complete"
+        link = "https://www.credly.com/badges/c1e46f86-a8a3-4d42-af0e-8a0c409c641c/public_url"
+        image = "https://images.credly.com/size/110x110/images/6726e724-5ce8-477e-93f5-6b39d6933273/image.png"
+        alt="Kusto Detective Agency - Complete"
+        width="120"
+        height="120"
+        class="cr-badges-full-badge__img"
 
     # Footer section
 
