@@ -152,7 +152,7 @@ disable404 = false
 
         [[params.jobs.list]]
         position = "SENIOR MANAGER - IT"
-        dates = "2023 - present"
+        dates = "2023 - 2024"
         company = "DELOITTE GLOBAL SERVICES Sàrl"
         details = "Support the cloud adoption and operations."
         tasks = [
