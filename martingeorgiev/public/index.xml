@@ -4,7 +4,8 @@
     <title>Martin Georgiev&#39;s  Resume</title>
     <link>https://martingeorgiev.info/</link>
     <description>Recent content on Martin Georgiev&#39;s  Resume</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://martingeorgiev.info/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://martingeorgiev.info/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

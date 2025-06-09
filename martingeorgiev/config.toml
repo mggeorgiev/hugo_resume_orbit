@@ -114,7 +114,7 @@ disable404 = false
         firstName = "Martin"
         address = "Sofia, Bulgaria"
         phone = "+359898466689"
-        email = "martin@martingeorgiev.com"
+        email = "contact@martingeorgiev.com"
         url = "martingeorgiev.info"
         note = "Solution Architect"
 

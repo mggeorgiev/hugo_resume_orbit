@@ -4,7 +4,8 @@
     <title>Categories on Martin Georgiev&#39;s  Resume</title>
     <link>https://martingeorgiev.info/categories/</link>
     <description>Recent content in Categories on Martin Georgiev&#39;s  Resume</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://martingeorgiev.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://martingeorgiev.info/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
