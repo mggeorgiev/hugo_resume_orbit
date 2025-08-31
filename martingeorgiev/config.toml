@@ -590,7 +590,7 @@ disable404 = false
         [[params.certificates.list]]
         certificate = "HashiCorp Certified: Terraform Associate"
         link = "https://www.credly.com/badges/03b4951d-0f62-49fa-91d5-165fd27d3748/public_url"
-        image = "https://images.credly.com/size/340x340/images/99289602-861e-4929-8277-773e63a2fa6f/image.png"
+        image = "https://images.credly.com/size/340x340/images/cd038261-9d1c-4792-bc62-3a3b5bda175c/blob"
         alt="HashiCorp Certified: Terraform Associate"
         width="120"
         height="120"
