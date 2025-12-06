@@ -24,7 +24,7 @@ disable404 = false
     # are available. Also the source LESS files are included so
     # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles-6.css"
+    styles = "styles-5.css"
 
 # Sidebar sections
 
@@ -149,6 +149,37 @@ disable404 = false
         enable = true
         icon = "fa-briefcase"
         title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "SENIOR SOLUTIONS ARCHITECT"
+        dates = "2024 - 2025"
+        company = "GENTIS LUXEMBOURG S.A."
+        details = "Support business initiatives and operations at a global logistics partner."
+        tasks = [
+            "Business Requirements Interpretation: Analysed and interpreted business requirements to define solution scope, objectives, and constraints.",
+            "Solution Intent Establishment: Articulated the overarching solution intent, ensuring alignment with business goals, stakeholder expectations, and architectural principles.",
+            "Architecture Alignment: Ensured solution designs conformed to architecture standards and integrated seamlessly with existing technical ecosystems.",
+            "Risk Identification & Mitigation: Proactively identified potential technical design risks and proposed mitigation strategies during early design phases.",
+            "Built-in Quality Supervision Oversaw quality assurance throughout the solution lifecycle, embedding quality gates and validation mechanisms into design and delivery.",
+            "Innovation Enablement Identified opportunities for innovation and continuous improvement, introducing new design patterns, tools, and practices to enhance solution value."
+        ]
+        achievements = [
+            "Enhanced DevOps practices by integrating security checks into the CI/CD pipeline, ensuring faster and safer deployments.",
+            "Developed high-level architectural designs to guide application migrations and integrations with core business systems.",
+            "Established and documented a comprehensive backup policy, ensuring data integrity, business continuity, and compliance with organizational standards.",
+            "Redesigned deployment strategy for existing applications to enable disaster recovery (DR)."
+        ]
+        technologies = [
+            "Bicep",
+            "PowerShell",
+            "Azure CLI",
+            "ARM templates",
+            "Azure DevOps",
+            "Azure IAAS",
+            "Azure PAAS",
+            "Azure iPaaS",
+            "Kusto"
+        ]
 
         [[params.jobs.list]]
         position = "SENIOR MANAGER - IT"
