@@ -28,7 +28,7 @@ jobs:
         run: hugo --config ./martingeorgiev/config.toml --themesDir ../.. --destination ./martingeorgiev/public
 
       - name: Azure Container registry login
-        uses: azure/docker-login@v1
+        uses: azure/docker-login@v2
         with:
             login-server: martingeorgiev.azurecr.io
             username: ${{ secrets.ACR_USERNAME }}
