@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v5
 
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
@@ -42,7 +42,7 @@ jobs:
           docker push martingeorgiev.azurecr.io/martingeorgievinfo:$(date +'%Y.%m.%d').${{ github.run_number }}
       
       - name: Azure login
-        uses: azure/login@v1
+        uses: azure/login@v3
         with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
 
