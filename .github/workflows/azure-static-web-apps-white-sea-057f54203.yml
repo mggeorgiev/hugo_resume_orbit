@@ -19,19 +19,28 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Build And Deploy
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true # Hugo extended is often needed for modern themes (SASS/SCSS)
+
+      - name: Build Hugo Site
+        run: |
+          hugo --config ./martingeorgiev/config.toml --themesDir ../.. --destination ./public
+
+      # This step handles the actual deployment to Azure SWA
+      - name: Deploy to Azure SWA
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WHITE_SEA_057F54203 }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "./martingeorgiev" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "." # Built app content directory - optional
-          ###### End of Repository/Build Configurations ######
+          app_location: "/"               # Where the SWA configuration lives
+          output_location: "public"       # Where the Hugo build output is
+          skip_app_build: true            # Important: Tell Azure we already built it with Hugo above
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
