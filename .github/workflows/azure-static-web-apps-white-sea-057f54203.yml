@@ -38,7 +38,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WHITE_SEA_057F54203 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "public"
+          app_location: "martingeorgiev/public"
           output_location: ""
           skip_app_build: true
 

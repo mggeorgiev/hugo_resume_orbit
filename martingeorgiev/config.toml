@@ -41,8 +41,8 @@ disable404 = false
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: martin@martingeorgiev.com"
-        title = "martin@martingeorgiev.com"
+        url = "mailto: contact@martingeorgiev.com"
+        title = "contact@martingeorgiev.com"
 
         [[params.contact.list]]
         class = "phone"
