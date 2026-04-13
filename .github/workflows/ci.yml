@@ -59,6 +59,12 @@ jobs:
   #        azcliversion: 2.30.0
           inlineScript: |
               az storage blob upload-batch --account-name martingeorgievinfo -d '$web' -s ./martingeorgiev/public
+  #     - name: Purge CDN endpoint
+  #       uses: azure/CLI@v1
+  #       with:
+  # #        azcliversion: 2.30.0
+  #         inlineScript: |
+  #           az cdn endpoint purge --content-paths  "/*" --profile-name martingeorgievinfo --name martingeorgievinfo --resource-group martingeorgievinfo
     # Azure logout 
       - name: logout
         run: |
